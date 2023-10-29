@@ -1,0 +1,3 @@
+-initial commit
+-uses arrays and point systems to simulate the process of a blackjack game
+-unable to use the play again button due to unknown bugs
