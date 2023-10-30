@@ -182,7 +182,7 @@ while True:
                         if (break_case == True):
                             continue
                         
-                        if 1 in dealerDrawed:
+                        if 11 in dealerDrawed:
                             dealerTotal - 10 # if not case, dont use else
                         else:
                             if (break_case == True):
