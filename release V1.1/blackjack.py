@@ -20,7 +20,7 @@ cards = [
     10, 10, 10, 10 
     ] 
 
-playerBalance = 100
+playerBalance = 100.00000
 break_case = False
 
 dealerPile = []
@@ -92,7 +92,7 @@ while True:
         shortage = bet - playerBalance 
         print("Insufficient amount, please place a smaller bat. You are short of $", shortage)
         continue
-        
+
     if (bet < 0.1):
         print("Invalid amount. Please enter a larger amount.")
         continue
@@ -183,7 +183,7 @@ while True:
                             continue
                         
                         if 1 in dealerDrawed:
-                            dealerTotal - 10
+                            dealerTotal - 10 # if not case, dont use else
                         else:
                             if (break_case == True):
                                 continue
@@ -192,6 +192,9 @@ while True:
                             askIfQuit()
                             continue
 
+                if (break_case == True):
+                    continue
+                
                 print("-------------RESULTS-------------")
                 outputFinal()
                 if (dealerTotal == playerTotal):
