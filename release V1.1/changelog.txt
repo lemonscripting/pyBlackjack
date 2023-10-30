@@ -1,0 +1,5 @@
+-fixed logic flaw
+-fixed push case for non blackjack
+-fixed invalid bet amount
+-able to play multiple games without errors for most cases
+-weak error handling
